@@ -22,6 +22,16 @@ usemathjax: yes
 
 <!--  -->
 
+
+[slide]
+
+![](/img/domain_model.jpg)
+
+<!--  -->
+
+
+
+
 [slide]
 
 # DDD: CQRS
@@ -157,6 +167,7 @@ class Address implements ValueObject {
 * 聚合内强一致性，聚合之间最终一致性
 
 <!-- http://www.cnblogs.com/netfocus/p/3307971.html -->
+
 
 
 [slide]

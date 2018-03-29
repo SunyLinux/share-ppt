@@ -22,7 +22,27 @@ https://en.wikipedia.org/wiki/Specification_pattern
  
 -->
 
+
 [slide]
+## Question
+
+领域对象应该保持纯粹性, 应该将测试代码剥离;
+
+-----
+
+测试代码本质上属于业务规则，不适合放在应用层;
+
+<!-- 放到领域对象也不合适； -->
+
+<!-- 
+测试代码 可以抽象为 Predicate 谓词，结果为 bool，并且可以使用 operator 组合成更复杂的规则；
+以对象的方式对逻辑规则抽象
+ -->
+
+ 
+[slide]
+
+The pattern is frequently used in the context of domain-driven design.
 
 ![](\img\spec.jpg)
 
